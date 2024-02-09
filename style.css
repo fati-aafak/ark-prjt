@@ -1,0 +1,138 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: sans-serief;
+}
+
+
+.navbar {
+    background-color: #510484;
+    overflow: hidden;
+    width: 100%; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: purple;
+}
+
+
+
+
+
+
+.banner {
+    width: 100vw;
+    height: 80vh;
+    background-image: url(game3.png);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+
+.footer-form {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-form input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.footer-form button {
+    padding: 10px 20px;
+    background-color: #510484;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-form button:hover {
+    background-color: purple;
+}
+
+
+
+
+
+form {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    padding: 50px 40px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+
+label {
+    font-weight: 500;
+    color: black;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+}
+
+input[type="password"] {
+    border: 2px solid white;
+}
+
+input[type="button"] {
+    background-color: #510484;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 14px;
+    margin: 15px 0;
+    display: inline-block;
+    color: black;
+}
